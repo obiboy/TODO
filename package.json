@@ -3,7 +3,9 @@
     "bcrypt": "^1.0.2",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mongoose": "^4.10.0",
-    "pug": "^2.0.0-rc.1"
+    "express-session": "^1.15.4",
+    "mongoose": "^4.11.2",
+    "pug": "^2.0.0-rc.2",
+    "session": "^0.1.0"
   }
 }

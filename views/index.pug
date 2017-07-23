@@ -1,6 +1,13 @@
 extends layout
 
 block content
-  a(href="/login") login
-  p 
-  a(href="/register") register
+  a(href="/post") new post
+
+  ul
+    each post in posts
+      - var content = post.post
+      - var author = post.author
+      - var path = "/status/" + post._id
+      
+      li 
+        a(href=path)= content
