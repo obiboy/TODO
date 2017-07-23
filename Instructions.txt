@@ -1,0 +1,4 @@
+Setup
+Install mongodb and run mongod in terminal, then in another terminal run nodemon
+In the browser go to localhost:3000 
+break stuff
